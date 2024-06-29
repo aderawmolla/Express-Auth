@@ -24,15 +24,14 @@ Welcome to the Thunder Client API documentation. This guide provides details on 
     "email": "ade@gmail.com",
     "password": "12345678"
   }
-2. deleteUser
-Description: Delete a user by ID.
-URL: DELETE /users/deleteUser/{userId}
-3. editUser
-Description: Update user details by ID.
-URL: PUT /users/updateUser/{userId}
-Body:
-json
-Copy code
+### 2. deleteUser
+- **Description:** Delete a user by ID.
+- **URL:** DELETE /users/deleteUser/{userId}
+### 3. editUser
+- **Descriotion** : Update user details by ID.
+- **URL:** PUT /users/updateUser/{userId}
+- **Body:**
+```json
 {
   "username": "Kokeb",
   "email": "koke@gmail.com",
